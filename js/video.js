@@ -63,9 +63,9 @@ slider.addEventListener("change", function() {
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
-	video.style.filter = "grayscale(1)";
+	video.classList.add("oldSchool");
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
-	video.style.filter = "grayscale(0)";
+	video.classList.remove("oldSchool");
 });
